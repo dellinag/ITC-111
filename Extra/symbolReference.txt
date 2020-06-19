@@ -1,0 +1,6 @@
+<<<<<<< HEAD
+&copy; - Creates copywrite symbol
+&nbsp; - Adds a non break space between elements
+=======
+&copy;
+>>>>>>> 46c5f1ee9e7825a0b5933768e27757c749057348

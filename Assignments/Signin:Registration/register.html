@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+</head>
+<body>
+    <div class="container"> 
+        <header id="mainHeader">
+            Have an account?
+            <a href="signinForm.html"> Login</a>
+        </header>
+
+        <section>
+            <form onsubmit="alert(userName.value);return false">
+                <!-- Name Field Start -->
+                <div id="formData">
+                    <div class="registrationLabel">
+                        <label> Name </label><br>
+                        <input type="text" name="firstName" placeholder="Enter first name."> &nbsp;
+                        <input type="text" name="lastName" placeholder="Enter last name.">
+                </div>
+                <!-- Name Field End -->
+                     
+                <!-- Age Field Start -->
+                <div class="registrationLabel">
+                    <label>Age</label><br>
+                    <input type="number" name="age" placeholder="Enter Age">
+                </div>
+    
+                <!-- Age Field End -->
+
+                <!-- Email Field Start -->
+                <div class="registrationLabel">
+                    <label>Email</label><br>
+                    <input type="email" name="email" placeholder="Enter Email Address">
+                    <input type="email" name="email" placeholder="Confirm Email Address">
+                </div>
+            
+                <!-- Email Field End -->
+
+                <!-- Username Field Start -->
+                <div class="registrationLabel">
+                    <label>Username</label><br>
+                    <input type="text" name="userName" placeholder="Enter Username">
+                </div>
+                
+                <!-- Username Field End -->
+
+                <!-- Password Field Start -->
+                <div class="registrationLabel">
+                    <label>Password</label><br>
+                    <input type="password" name="password" placeholder="Enter Password">
+                    <input type="password" name="password" placeholder="Confirm Password">
+                 </div>
+                
+                <!-- Password Field End -->
+                <br>
+                <input type="submit" name="submit">
+                <br>
+                <br>
+    
+            </form>
+            
+        </section>
+
+    </div>
+</body>
+</html>
