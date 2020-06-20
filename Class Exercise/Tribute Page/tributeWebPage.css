@@ -1,0 +1,21 @@
+
+body {
+    text-align: center;
+    color: white;
+    background-image: url("popSmokeOnStage.jpg");
+}
+.container {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+}
+img {
+    width: 35%;
+    height: 35%;
+}
+li {
+    list-style-type: none;
+}
+
+
+
